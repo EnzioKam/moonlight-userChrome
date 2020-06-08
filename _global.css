@@ -31,3 +31,16 @@ change (#navigator-toolbox) with your top bar (in this case #nav-bar) and use
 #tabbrowser-tabpanels {
     background-color: var(--moonlight-gray-2) !important;
 }
+
+/* TABS: height */
+:root {
+    --tab-min-height: 40px !important;
+}
+
+:root #tabbrowser-tabs {
+--tab-min-height: 40px !important;
+}
+
+#TabsToolbar {
+    height: var(--tab-min-height) !important;
+}
